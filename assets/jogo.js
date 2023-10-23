@@ -18,9 +18,7 @@ function imprimeLetra(letra) {
     campoLetra.appendChild(p);
 }
 
-function limpaDiv(div) {
-    div.innerHTML = "";
-}
+const limpaDiv = (div) => div.innerHTML = "";
 
 document.addEventListener('click', (e) => {
     if(e.target.classList.contains('btn-submit')) {
