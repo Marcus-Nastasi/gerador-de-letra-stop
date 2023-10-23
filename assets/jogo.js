@@ -26,6 +26,11 @@ document.addEventListener('click', (e) => {
         limpaDiv((document.getElementById('campoLetra')));
         imprimeLetra(letraAleatoria());
     }
+
+    if(e.target.classList.contains('btn-submit-limpar')) {
+        e.preventDefault(); 
+        limpaDiv((document.getElementById('campoLetra')));
+    }
 });
 
 
