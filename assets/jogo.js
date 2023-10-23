@@ -11,12 +11,12 @@ const letraAleatoria = () => {
     return String(alfabeto[numAleatorio].toLocaleUpperCase());
 };
 
-function imprimeLetra(letra) {
+const imprimeLetra = (letra) => {
     const campoLetra = document.getElementById("campoLetra");
     const p = document.createElement('p');
     p.innerText = letra;
     campoLetra.appendChild(p);
-}
+};
 
 const limpaDiv = (div) => div.innerHTML = "";
 
