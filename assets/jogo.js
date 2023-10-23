@@ -2,7 +2,6 @@
 
 (function () {
 
-
 const letraAleatoria = () => {
     let alfabeto = ["a", "b", "c", "d", 
     "e", "f", "g", "h", "i", "j", 
